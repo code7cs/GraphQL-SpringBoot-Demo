@@ -1,10 +1,10 @@
 type Query{
-	getBook(id:INT):Book
+	getBook(id:Int):Book
 	getBooks:[Book]
 }
 
 type Book {
-	id:INT
+	id:Int
 	name:String
-	pages:INT
+	pages:Int
 }
